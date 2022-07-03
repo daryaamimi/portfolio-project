@@ -1,0 +1,102 @@
+:root {
+  --text-align: center;
+  --background-color: #a7c2d3;
+  --header-footer-color: #e6eae9;
+  --text-buttonText-color: #f1fbff;
+  --boldText-buttonBackground-color: #636c71;
+  --link-decoration: none;
+  --box-shadow: 0 5px 10px #798386;
+  --active: #34383a;
+}
+
+body {
+  margin-top: 200px;
+  font-family: "Roboto", sans-serif;
+  background: var(--background-color);
+}
+
+.navbar {
+  background-color: var(--header-footer-color) !important;
+}
+
+.color {
+  color: var(--boldText-buttonBackground-color) !important;
+}
+
+.active {
+  color: var(--active) !important;
+}
+.nav-btn {
+  margin-right: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--boldText-buttonBackground-color);
+}
+
+p {
+  color: var(--text-buttonText-color);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  border-color: var(--background-color);
+}
+
+a:hover {
+  color: var(--text-buttonText-color);
+}
+
+a:active {
+  color: var(--text-buttonText-color);
+}
+
+.contact-btn {
+  border: 1px solid var(--boldText-buttonBackground-color);
+  background-color: var(--boldText-buttonBackground-color);
+  border-radius: 4px;
+  padding: 20px 50px;
+  color: var(--text-buttonText-color);
+  text-decoration: var(--link-decoration);
+  box-shadow: var(--box-shadow);
+  font-size: 20px;
+}
+
+.introduce {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.introduce h1 {
+  font-size: 48px;
+  margin-bottom: 28px;
+}
+
+.introduce p {
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-top: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    margin-top: 310px;
+  }
+
+  .btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
