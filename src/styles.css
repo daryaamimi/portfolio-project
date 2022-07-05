@@ -133,6 +133,7 @@ i {
 i:hover {
   color: #000000;
   cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .linkedin,
@@ -172,6 +173,27 @@ i:hover {
   margin-right: 18px;
 }
 
+.email {
+  font-size: 1.5rem;
+  color: var(--boldText-buttonBackground-color);
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.email:hover {
+  color: var(--boldText-buttonBackground-color);
+  cursor: pointer;
+  color: #454a4d;
+  transition: all 200ms ease-in-out;
+  border-color: var(--background-color);
+}
+
+.email:active {
+  color: var(--boldText-buttonBackground-color);
+}
+
 @media (max-width: 768px) {
   .body1 {
     margin-top: 300px;
@@ -206,25 +228,6 @@ i:hover {
   .rachel-hollis-work {
     margin-bottom: 75px;
   }
-}
-
-.email {
-  font-size: 1.5rem;
-  color: var(--boldText-buttonBackground-color);
-  text-decoration: none;
-  display: block;
-  margin: 0 auto;
-  font-weight: 500;
-}
-
-.email:hover {
-  color: var(--boldText-buttonBackground-color);
-  cursor: pointer;
-  border-color: var(--background-color);
-}
-
-.email:active {
-  color: var(--boldText-buttonBackground-color);
 }
 
 @media (min-width: 768px) {
