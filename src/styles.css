@@ -208,6 +208,25 @@ i:hover {
   }
 }
 
+.email {
+  font-size: 1.5rem;
+  color: var(--boldText-buttonBackground-color);
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.email:hover {
+  color: var(--boldText-buttonBackground-color);
+  cursor: pointer;
+  border-color: var(--background-color);
+}
+
+.email:active {
+  color: var(--boldText-buttonBackground-color);
+}
+
 @media (min-width: 768px) {
   .body1 {
     margin-top: 310px;
