@@ -2,7 +2,7 @@
   --text-align: center;
   --background-color: #a7c2d3;
   --header-footer-color: #e6eae9;
-  --text-buttonText-color: #f1fbff;
+  --text-buttonText-color: white;
   --boldText-buttonBackground-color: #636c71;
   --link-decoration: none;
   --box-shadow: 0 5px 10px #798386;
@@ -10,7 +10,8 @@
 }
 
 .body1,
-.body2 {
+.body2,
+.body3 {
   font-family: "Roboto", sans-serif;
   background: var(--background-color);
 }
@@ -127,6 +128,31 @@ i:hover {
   margin-right: 10px;
 }
 
+.work4 {
+  margin-bottom: 30px;
+}
+
+.launch-btn {
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.launch {
+  border: 1px solid var(--box-shadow);
+  border-radius: 4px;
+  background-color: var(--boldText-buttonBackground-color);
+  padding: 20px 15px;
+  color: var(--text-buttonText-color);
+  text-decoration: var(--link-decoration);
+  box-shadow: var(--box-shadow);
+}
+
+.work {
+  border-color: white;
+}
+
 @media (max-width: 768px) {
   .body1 {
     margin-top: 300px;
@@ -136,12 +162,25 @@ i:hover {
     margin-top: 72px;
   }
 
-  .describing-myself {
+  .body3 {
+    margin-top: 90px;
+  }
+
+  p {
     line-height: 1.8;
   }
 
   .coding {
     margin-bottom: 15px;
+  }
+
+  .weather-img,
+  .rachel-img {
+    margin-bottom: 20px;
+  }
+
+  .rachel-hollis-work {
+    margin-bottom: 75px;
   }
 }
 
@@ -154,7 +193,11 @@ i:hover {
     margin-top: 160px;
   }
 
-  .describing-myself {
+  .body3 {
+    margin-top: 100px;
+  }
+
+  p {
     line-height: 2.5;
   }
 
@@ -165,5 +208,15 @@ i:hover {
 
   .footer-container {
     margin-top: 120px;
+  }
+
+  .work1,
+  .work2,
+  .work3 {
+    margin-bottom: 30px;
+  }
+
+  .launch-btn {
+    margin-top: 30px;
   }
 }
