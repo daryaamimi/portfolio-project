@@ -33,6 +33,10 @@
   color: var(--boldText-buttonBackground-color) !important;
 }
 
+.color:hover {
+  color: var(--active) !important;
+}
+
 .active {
   color: var(--active) !important;
 }
