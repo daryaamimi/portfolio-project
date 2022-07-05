@@ -11,7 +11,8 @@
 
 .body1,
 .body2,
-.body3 {
+.body3,
+.body4 {
   font-family: "Roboto", sans-serif;
   background: var(--background-color);
 }
@@ -46,6 +47,11 @@ h4,
 h5,
 h6 {
   color: var(--boldText-buttonBackground-color);
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 p {
@@ -93,6 +99,12 @@ a:active {
 .introduce p {
   font-size: 24px;
   margin-bottom: 28px;
+}
+
+hr {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
@@ -153,6 +165,13 @@ i:hover {
   border-color: white;
 }
 
+.contact {
+  color: white;
+  text-align: center;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
 @media (max-width: 768px) {
   .body1 {
     margin-top: 300px;
@@ -166,7 +185,12 @@ i:hover {
     margin-top: 90px;
   }
 
-  p {
+  .body4 {
+    margin-top: 190px;
+  }
+
+  p,
+  .contact {
     line-height: 1.8;
   }
 
@@ -197,7 +221,12 @@ i:hover {
     margin-top: 100px;
   }
 
-  p {
+  .body4 {
+    margin-top: 230px;
+  }
+
+  p,
+  .contact {
     line-height: 2.5;
   }
 
